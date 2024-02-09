@@ -23,14 +23,6 @@ body {
 	overflow: hidden;
 }
 
-a {
-	color: rgb(119, 56, 235);
-
-	&:hover {
-		color: lighten(rgb(119, 56, 235), 10%);
-	}
-}
-
 @media (prefers-color-scheme: light) {
 	:root {
 		color: #213547;
